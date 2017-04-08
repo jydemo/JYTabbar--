@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12106.1" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12074.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0WY-B0-ajh" customClass="JYMainTabView" customModule="JYTabbar_开眼" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVe-4K-7r4">
+                    <rect key="frame" x="0.0" y="0.0" width="106.5" height="40"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="11"/>
+                    <state key="normal" title="每日精选">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="choicButton:" destination="0WY-B0-ajh" eventType="touchUpInside" id="qRe-Mz-C1P"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79V-Dp-Bji">
+                    <rect key="frame" x="107" y="0.0" width="106.5" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <state key="normal" title="发现更多">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="discoverButton:" destination="0WY-B0-ajh" eventType="touchUpInside" id="LTm-4e-azd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2s-tK-uVC">
+                    <rect key="frame" x="213.5" y="0.0" width="106.5" height="40"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <state key="normal" title="热门排行">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="selectorButton:" destination="0WY-B0-ajh" eventType="touchUpInside" id="I9V-bd-esm"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SkS-kD-hJi">
+                    <rect key="frame" x="106.5" y="10" width="1" height="20"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="1As-Y2-PD0"/>
+                        <constraint firstAttribute="width" constant="1" id="iP5-fg-MAS"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nhc-tL-d8C">
+                    <rect key="frame" x="214" y="10" width="1" height="20"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="8BM-hp-12s"/>
+                        <constraint firstAttribute="height" constant="20" id="TQ6-V3-k0l"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="F2s-tK-uVC" secondAttribute="trailing" id="1y2-9x-wqT"/>
+                <constraint firstItem="SkS-kD-hJi" firstAttribute="centerY" secondItem="0WY-B0-ajh" secondAttribute="centerY" id="2vQ-Q0-D4q"/>
+                <constraint firstAttribute="bottom" secondItem="HVe-4K-7r4" secondAttribute="bottom" id="4Zx-vT-SmP"/>
+                <constraint firstItem="Nhc-tL-d8C" firstAttribute="centerY" secondItem="0WY-B0-ajh" secondAttribute="centerY" id="57y-Lb-39W"/>
+                <constraint firstItem="HVe-4K-7r4" firstAttribute="leading" secondItem="0WY-B0-ajh" secondAttribute="leading" id="AEm-X3-gfR"/>
+                <constraint firstItem="F2s-tK-uVC" firstAttribute="top" secondItem="0WY-B0-ajh" secondAttribute="top" id="Cvt-YX-iLt"/>
+                <constraint firstItem="HVe-4K-7r4" firstAttribute="top" secondItem="0WY-B0-ajh" secondAttribute="top" id="I6H-Pr-69d"/>
+                <constraint firstItem="79V-Dp-Bji" firstAttribute="leading" secondItem="HVe-4K-7r4" secondAttribute="trailing" id="JnP-GB-ZDq"/>
+                <constraint firstItem="HVe-4K-7r4" firstAttribute="width" secondItem="79V-Dp-Bji" secondAttribute="width" id="Opv-hI-N9s"/>
+                <constraint firstAttribute="bottom" secondItem="79V-Dp-Bji" secondAttribute="bottom" id="Os0-mE-RlO"/>
+                <constraint firstItem="HVe-4K-7r4" firstAttribute="width" secondItem="F2s-tK-uVC" secondAttribute="width" id="Pcd-hM-5ax"/>
+                <constraint firstItem="79V-Dp-Bji" firstAttribute="top" secondItem="0WY-B0-ajh" secondAttribute="top" id="RhF-bT-bAh"/>
+                <constraint firstItem="F2s-tK-uVC" firstAttribute="leading" secondItem="79V-Dp-Bji" secondAttribute="trailing" id="S5k-Gr-AbT"/>
+                <constraint firstItem="HVe-4K-7r4" firstAttribute="height" secondItem="79V-Dp-Bji" secondAttribute="height" id="Upg-B6-J3m"/>
+                <constraint firstAttribute="bottom" secondItem="F2s-tK-uVC" secondAttribute="bottom" id="X8B-2n-sIt"/>
+                <constraint firstItem="79V-Dp-Bji" firstAttribute="centerY" secondItem="0WY-B0-ajh" secondAttribute="centerY" id="hVu-KP-Mz1"/>
+                <constraint firstItem="79V-Dp-Bji" firstAttribute="leading" secondItem="SkS-kD-hJi" secondAttribute="leading" id="tzr-0U-Ch2"/>
+                <constraint firstItem="HVe-4K-7r4" firstAttribute="height" secondItem="F2s-tK-uVC" secondAttribute="height" id="wYG-VB-kVJ"/>
+                <constraint firstItem="Nhc-tL-d8C" firstAttribute="leading" secondItem="F2s-tK-uVC" secondAttribute="leading" id="xEP-5o-kjw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="choiceButton" destination="HVe-4K-7r4" id="B2o-qm-E0B"/>
+                <outlet property="discoverButton" destination="79V-Dp-Bji" id="qad-Ga-oIb"/>
+                <outlet property="selectorButton" destination="F2s-tK-uVC" id="Yg6-NH-E6c"/>
+            </connections>
+            <point key="canvasLocation" x="-320" y="-210"/>
+        </view>
+    </objects>
+</document>

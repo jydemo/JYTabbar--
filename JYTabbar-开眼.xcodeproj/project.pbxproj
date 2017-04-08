@@ -12,6 +12,9 @@
 		5C4E085C1E779D2A0061030E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E085A1E779D2A0061030E /* Main.storyboard */; };
 		5C4E085E1E779D2A0061030E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E085D1E779D2A0061030E /* Assets.xcassets */; };
 		5C4E08611E779D2B0061030E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E085F1E779D2A0061030E /* LaunchScreen.storyboard */; };
+		5C4E086B1E779DE00061030E /* JYMainTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E086A1E779DE00061030E /* JYMainTabView.xib */; };
+		5C4E086D1E779E670061030E /* JYMainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E086C1E779E670061030E /* JYMainTabView.swift */; };
+		5C4E08711E77BFF10061030E /* JYMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E08701E77BFF10061030E /* JYMainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5C4E085D1E779D2A0061030E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C4E08601E779D2A0061030E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C4E08621E779D2B0061030E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4E086A1E779DE00061030E /* JYMainTabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYMainTabView.xib; sourceTree = "<group>"; };
+		5C4E086C1E779E670061030E /* JYMainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYMainTabView.swift; sourceTree = "<group>"; };
+		5C4E08701E77BFF10061030E /* JYMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				5C4E085D1E779D2A0061030E /* Assets.xcassets */,
 				5C4E085F1E779D2A0061030E /* LaunchScreen.storyboard */,
 				5C4E08621E779D2B0061030E /* Info.plist */,
+				5C4E086A1E779DE00061030E /* JYMainTabView.xib */,
+				5C4E086C1E779E670061030E /* JYMainTabView.swift */,
+				5C4E08701E77BFF10061030E /* JYMainViewController.swift */,
 			);
 			path = "JYTabbar-开眼";
 			sourceTree = "<group>";
@@ -124,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4E086B1E779DE00061030E /* JYMainTabView.xib in Resources */,
 				5C4E08611E779D2B0061030E /* LaunchScreen.storyboard in Resources */,
 				5C4E085E1E779D2A0061030E /* Assets.xcassets in Resources */,
 				5C4E085C1E779D2A0061030E /* Main.storyboard in Resources */,
@@ -137,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4E08711E77BFF10061030E /* JYMainViewController.swift in Sources */,
 				5C4E08591E779D2A0061030E /* ViewController.swift in Sources */,
+				5C4E086D1E779E670061030E /* JYMainTabView.swift in Sources */,
 				5C4E08571E779D2A0061030E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
